@@ -8,20 +8,21 @@
     body {
         font-family: Arial, Helvetica, sans-serif;
         margin: 0;
-        background-color: #9fb5b7;
+        /* background-color: blue; */
     }
 
     .header {
             padding: 60px;
             text-align: center;
-            /* background-image: url(./imag/alps-background.jpg); */
-            background: #8cafae;
-            color: black;
+            background-image: url(img/art-big-data.jpg);
+            /* background-image: url(img/art-artistic-background.jpg); */
+            /* background-image: url(img/adult-blur-buildings.jpg); */
+            display: 100%;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
         }
-      /* .header .h1 {
-        color:blue;
-        text-align: center;
-      } */
 
 div {
   text-align: center;
@@ -54,6 +55,7 @@ div {
     .row {
         display: flex;
         flex-wrap: wrap;
+        /* color: lightblue; */
     }
 
     /* Create two unequal columns that sits next to each other */
@@ -73,7 +75,7 @@ div {
 
     /* Fake image, just for this example */
     .fakeimg {
-        background-color: #aaa;
+        background-color: lightblue;
         width: 100%;
         padding: 20px;
     }
